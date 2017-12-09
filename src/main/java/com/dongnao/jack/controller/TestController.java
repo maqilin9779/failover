@@ -19,7 +19,7 @@ public class TestController {
 		for(int i = 0 ; i < 100 ; i++) {
 			jedisCluster.set("key" + i, "value" + i);
 		}
-		
+		System.out.println("我是maqilin2015第一次提交的");
 		return "OK";
 	}
 	
