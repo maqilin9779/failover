@@ -20,6 +20,7 @@ public class TestController {
 			jedisCluster.set("key" + i, "value" + i);
 		}
 		System.out.println("我是maqilin2015第一次提交的");
+		System.out.println("我是maqilin9779base修改之后的");
 		return "OK";
 	}
 	
